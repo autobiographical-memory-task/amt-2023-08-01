@@ -34,7 +34,7 @@ At the prompt create a new environment by typing the following below.
     conda create --name amt python==3.9
     conda activate amt
 
-To pull this code into a directory called \<dir\>. This command will create the `<dir>`. The placeholder `<loc>` is the location of this github repository: `https://github.com/undergoer/amt.git`
+To pull this code into a directory called \<dir\>. This command will create the `<dir>`. The placeholder `<loc>` is the location of this github repository: `https://github.com/autobiographical-memory-task/amt-2023-08-01.git`
 
     git clone <loc> <dir>
 
