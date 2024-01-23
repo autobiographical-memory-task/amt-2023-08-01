@@ -64,7 +64,7 @@ Ensure there is one column called 'response'. If you do not have such a column t
     python analyse-csv.py <csv-file> -r <column-name>
 
 Please note that if you have empty cells or "N/A" or "NA", this will prevent the software from running. 
-Replace any missing scores or empty cells with the following (including the square bracket)
+Replace any missing scores or empty cells with the following (including the square brackets)
 
     [BLANK]
 
