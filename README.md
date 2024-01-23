@@ -43,7 +43,7 @@ To pull this code into a directory called \<dir\>. This command will create the 
 Navigate to your `<dir>` and ensure that your conda environment is activated as above
 
     cd <dir>
-    pip install -r requirements
+    pip install -r requirements.txt
 
 ## Obtaining the model
 
@@ -59,7 +59,10 @@ On the command line analyse any `<csv-file>` in the following way. The placehold
 
 ## Format of the csv-file
 
-Ensure there is one column called 'respones'. If you do not have such a column then you need to specify which column (`<column-name>`) you want scored with the `-r` argument as follows.
+Ensure there is one column called 'response'. If you do not have such a column then you need to specify which column (`<column-name>`) you want scored with the `-r` argument as follows.
 
     python analyse-csv.py <csv-file> -r <column-name>
+
+Please note that if you have empty cells or "N/A" or "NA", this will prevent the software from running. 
+Replace any missing scores with "[BLANK]" (in square brackets).
 
