@@ -10,7 +10,7 @@ These are the categories that the model identifies:
 
 ## Requirements
 
-The following are required for you project to run.
+The following are required for your project to run.
 Don't worry, we'll step through what you need to do to ensure this project will run for you.
 
 - python==3.9.17
